@@ -67,6 +67,10 @@ module Todoly
         :path => "items/%d",
         :method => :delete,
       },
+      :update_item_by_id => {
+        :path => "items/%d",
+        :method => :post,
+      },
     }.each do |meth, data|
       class_eval do
         define_method(meth) do |*params|

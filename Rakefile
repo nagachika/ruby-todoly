@@ -15,8 +15,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "todoly"
   gem.homepage = "http://github.com/nagachika/ruby-todoly"
   gem.license = "MIT"
-  gem.summary = %Q{todo.ly REST API Library}
-  gem.description = %Q{todo.ly REST API Library}
+  gem.summary = %Q{Todo.ly REST API Library}
+  gem.description = %Q{Todo.ly REST API Library}
   gem.email = "nagachika00@gmail.com"
   gem.authors = ["nagachika"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,

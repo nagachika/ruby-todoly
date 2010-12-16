@@ -5,12 +5,12 @@
 
 Gem::Specification.new do |s|
   s.name = %q{todoly}
-  s.version = "0.0.0"
+  s.version = "0.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["nagachika"]
-  s.date = %q{2010-12-15}
-  s.description = %q{todo.ly REST API Library}
+  s.date = %q{2010-12-17}
+  s.description = %q{Todo.ly REST API Library}
   s.email = %q{nagachika00@gmail.com}
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -26,6 +26,10 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "lib/todoly.rb",
+    "lib/todoly/filter.rb",
+    "lib/todoly/project.rb",
+    "lib/todoly/rest_interface.rb",
+    "lib/todoly/task.rb",
     "spec/spec_helper.rb",
     "spec/todoly_spec.rb",
     "todoly.gemspec"
@@ -34,7 +38,7 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.7}
-  s.summary = %q{todo.ly REST API Library}
+  s.summary = %q{Todo.ly REST API Library}
   s.test_files = [
     "spec/spec_helper.rb",
     "spec/todoly_spec.rb"

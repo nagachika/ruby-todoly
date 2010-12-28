@@ -26,6 +26,9 @@ Create new task
   # create task on study project
   todoly.new_task("write Todoly document", study)
 
+Check task as done
+  task.check
+
 == Contributing to todoly
 
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet

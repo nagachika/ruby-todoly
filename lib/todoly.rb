@@ -16,12 +16,24 @@ class Todoly
     @projects ||= Project.list(@rest_if)
   end
 
+  def find_project(name)
+    projects().find{|prj| name === prj.name }
+  end
+
   def filters
     @filters ||= Filter.list(@rest_if)
   end
 
+  def find_filters(name)
+    filters().find{|f| name === f.name }
+  end
+
   def tasks
     @tasks ||= Task.list(@rest_if)
+  end
+
+  def find_task(name)
+    tasks().find{|t| name === t.name }
   end
 
   def new_task(str, project = nil)

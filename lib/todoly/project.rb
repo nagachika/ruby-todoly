@@ -19,6 +19,10 @@ class Todoly
 
     attr_reader :raw, :id, :name
 
+    def [](key)
+      @raw[key]
+    end
+
     def tasks
       @rest_if.items_of_project(@id).map do |item|
         Task.new(@rest_if, item)

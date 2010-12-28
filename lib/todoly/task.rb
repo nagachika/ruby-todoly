@@ -25,6 +25,10 @@ class Todoly
 
     attr_reader :raw, :id, :name
 
+    def [](key)
+      @raw[key]
+    end
+
     def to_s
       @name
     end

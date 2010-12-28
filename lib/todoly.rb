@@ -29,7 +29,7 @@ class Todoly
     if project
       obj["ProjectId"] = project.id
     end
-    t = Task.create(str, obj)
+    t = Task.create(@rest_if, str, obj)
     @tasks << t if @tasks
     t
   end

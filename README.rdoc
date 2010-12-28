@@ -2,6 +2,30 @@
 
 todoly is REST API client library for Todo.ly (http://todo.ly)
 
+== Usage
+
+Login (create Todoly instance)
+  todoly = Todoly.new :email => "xxx@example.com", :password => "xxxxxx"
+
+Get project list
+  todoly.projects
+
+Get filter list
+  todoly.filters
+
+Get all task list
+  todoly.tasks
+
+Get task list of a project
+  study = todoly.find_project("Study")
+  study.tasks
+
+Create new task
+  # create task on toplevel
+  todoly.new_task("buy milk")
+  # create task on study project
+  todoly.new_task("write Todoly document", study)
+
 == Contributing to todoly
 
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet

@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "todoly"
-  spec.version       = "0.0.2"
+  spec.version       = "0.0.3"
   spec.date          = %q{2010-12-29}
   spec.authors       = ["nagachika"]
   spec.email         = ["nagachika@ruby-lang.org"]
@@ -24,7 +24,6 @@ Gem::Specification.new do |spec|
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
-    "VERSION",
     "lib/todoly.rb",
     "lib/todoly/filter.rb",
     "lib/todoly/project.rb",

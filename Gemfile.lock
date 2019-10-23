@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    todoly (0.0.2)
+    todoly (0.0.3)
       rest-client
 
 GEM

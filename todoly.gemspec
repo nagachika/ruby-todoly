@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "todoly"
-  spec.version       = "0.0.3"
+  spec.version       = "0.0.4"
   spec.date          = %q{2010-12-29}
   spec.authors       = ["nagachika"]
   spec.email         = ["nagachika@ruby-lang.org"]
